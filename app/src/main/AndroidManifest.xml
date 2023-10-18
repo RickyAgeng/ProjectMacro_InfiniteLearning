@@ -40,13 +40,29 @@
             android:name=".Pengenalan_Buah1"
             android:exported="false" />
         <activity
-            android:name=".Menulis_B"
+            android:name=".Membaca4"
             android:exported="false" />
+        <activity
+            android:name=".Membaca3"
+            android:exported="false" />
+        <activity
+            android:name=".Membaca2"
+            android:exported="false" />
+        <activity
+            android:name=".Membaca1"
+            android:exported="false" />
+        <activity
+            android:name=".Mewarnai2"
+            android:exported="false" />
+        <activity
+            android:name=".Mewarnai1"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true"
+            android:theme="@style/NoActionBar" />
         <activity
             android:name=".Menulis_A"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Pengenalan_Pancasila"
@@ -63,6 +79,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
