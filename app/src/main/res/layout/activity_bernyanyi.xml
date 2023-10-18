@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/frame2"
-    tools:context=".Pengenalan">
+    android:background="@drawable/background_bernyanyi"
+    tools:context=".Bernyanyi">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -18,11 +18,12 @@
         android:id="@+id/Judul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pengenalan"
+        android:text="Bernyanyi"
         android:textSize="35sp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="138dp"
+        android:textColor="@color/white"
         />
 
     <GridLayout
@@ -64,14 +65,15 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pengenalan_buah" />
+                    android:src="@drawable/gambar_balon"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Buah"
+                    android:text="Balonku Ada 5"
                     android:textAlignment="center"
-                    android:textSize="24sp"
+                    android:textSize="13sp"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -104,14 +106,15 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pengenalan_hewan" />
+                    android:src="@drawable/gambar_topi" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hewan"
+                    android:text="Topi Saya Bundar"
                     android:textAlignment="center"
-                    android:textSize="24sp"
+                    android:textSize="13sp"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -144,14 +147,15 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pengenalan_warna" />
+                    android:src="@drawable/gambar_burung" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Warna"
+                    android:text="Burung Kakak Tua"
                     android:textAlignment="center"
-                    android:textSize="24sp"
+                    android:textSize="13sp"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -184,14 +188,15 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/pengenalan_pancasila" />
+                    android:src="@drawable/gambar_delman" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pancasila"
+                    android:text="Naik Delman"
                     android:textAlignment="center"
-                    android:textSize="24sp"
+                    android:textSize="13sp"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
