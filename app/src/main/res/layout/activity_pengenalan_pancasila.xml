@@ -14,15 +14,18 @@
         android:src="@drawable/back"
         android:layout_marginTop="58dp"
         android:layout_marginStart="16dp" />
-
     <ImageView
         android:id="@+id/home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/home"
         android:layout_marginTop="58dp"
+<<<<<<< HEAD
         android:layout_marginStart="328dp" />
 
+=======
+        android:layout_marginStart="348dp" />
+>>>>>>> 67da4e151fd15577a496c8d42849a026ec06de80
     <ImageView
         android:id="@+id/iv_prev"
         android:layout_width="wrap_content"
@@ -30,7 +33,6 @@
         android:src="@drawable/prev"
         android:layout_marginTop="320dp"
         android:layout_marginStart="16dp" />
-
     <ImageView
         android:id="@+id/iv_next"
         android:layout_width="wrap_content"
