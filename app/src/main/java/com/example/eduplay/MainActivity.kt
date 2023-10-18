@@ -9,13 +9,15 @@ import android.widget.ImageView
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-<<<<<<< HEAD
         setContentView(R.layout.activity_main)
 
         val membaca: ImageView = findViewById(R.id.membaca)
         membaca.setOnClickListener(this)
         val mewarnai: ImageView = findViewById(R.id.mewarnai)
         mewarnai.setOnClickListener(this)
+        val pengenalan: ImageView = findViewById(R.id.pengenalan)
+        pengenalan.setOnClickListener(this)
+        val menulis: ImageView = findViewById(R.id.menulis)
     }
 
     override fun onClick(v: View?) {
@@ -29,10 +31,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     val intent = Intent(this@MainActivity, Mewarnai1::class.java)
                     startActivity(intent)
                 }
+                R.id.pengenalan -> {
+                    val intent = Intent(this@MainActivity, Pengenalan::class.java)
+                    startActivity(intent)
+                }
             }
         }
-=======
-        setContentView(R.layout.activity_bernyanyi)
->>>>>>> origin/main
     }
 }
