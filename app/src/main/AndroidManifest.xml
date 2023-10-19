@@ -13,22 +13,65 @@
         android:theme="@style/Theme.EDUPLAY"
         tools:targetApi="31">
         <activity
-            android:name=".Menulis_B"
+            android:name=".Pengenalan_Warna3"
             android:exported="false" />
+        <activity
+            android:name=".Pengenalan_Warna2"
+            android:exported="false" />
+        <activity
+            android:name=".Pengenalan_Warna1"
+            android:exported="false" />
+        <activity
+            android:name=".Pengenalan_Hewan3"
+            android:exported="false" />
+        <activity
+            android:name=".Pengenalan_Hewan2"
+            android:exported="false" />
+        <activity
+            android:name=".Pengenalan_Hewan1"
+            android:exported="false" />
+        <activity
+            android:name=".Pengenalan_Buah3"
+            android:exported="false" />
+        <activity
+            android:name=".Pengenalan_Buah2"
+            android:exported="false" />
+        <activity
+            android:name=".Pengenalan_Buah1"
+            android:exported="false" />
+        <activity
+            android:name=".Membaca4"
+            android:exported="false" />
+        <activity
+            android:name=".Membaca3"
+            android:exported="false" />
+        <activity
+            android:name=".Membaca2"
+            android:exported="false" />
+        <activity
+            android:name=".Membaca1"
+            android:exported="false" />
+        <activity
+            android:name=".Mewarnai2"
+            android:exported="false" />
+        <activity
+            android:name=".Mewarnai1"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true"
+            android:theme="@style/NoActionBar" />
         <activity
             android:name=".Menulis_A"
             android:exported="false" />
         <activity
-            android:name=".Pengenalan"
-            android:exported="false" />
-        <activity
-            android:name=".Pengenalan_Pancasila"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Bernyanyi"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Pengenalan"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,6 +79,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Pengenalan_Pancasila"
+            android:exported="false" />
     </application>
 
 </manifest>

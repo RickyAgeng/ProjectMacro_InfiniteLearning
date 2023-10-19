@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">EDUPLAY</string>
+    <string name="sila1">KETUHANAN YANG MAHA ESA</string>
+    <string name="sila2">KEMANUSIAAN YANG ADIL DAN BERADAB</string>
+    <string name="sila3">PERSATUAN INDONESIA</string>
+    <string name="sila4">KERAKYATAN YANG DIPIMPIN OLEH HIKMAT KEBIJAKSANAAN DALAM PERMUSYAWARATAN PERWAKILAN</string>
+    <string name="sila5">KEADLIAN SOSIAL BAGI SELURUH RAKYAT INDONESIA</string>
 </resources>

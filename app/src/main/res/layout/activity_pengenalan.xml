@@ -8,22 +8,26 @@
     tools:context=".Pengenalan">
 
     <ImageView
+        android:id="@+id/btnback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/back"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="58dp"
-        android:layout_marginStart="16dp" />
+        android:src="@drawable/back" />
 
     <TextView
         android:id="@+id/Judul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pengenalan"
-        android:textSize="35sp"
-        android:textStyle="bold"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="138dp"
-        />
+        android:textColor="@color/white"
+        android:shadowColor="@color/bluetvborder"
+        android:shadowRadius="25"
+        android:text="Pengenalan"
+        android:textSize="45dp"
+        android:textStyle="bold" />
 
     <GridLayout
         android:layout_width="match_parent"
@@ -38,6 +42,7 @@
 
         <!--1-->
         <androidx.cardview.widget.CardView
+            android:id="@+id/btn1"
             android:layout_width="84dp"
             android:layout_height="96dp"
             android:layout_row="0"
@@ -78,6 +83,7 @@
 
         <!--2-->
         <androidx.cardview.widget.CardView
+            android:id="@+id/btn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="0"
@@ -118,6 +124,7 @@
 
         <!--3-->
         <androidx.cardview.widget.CardView
+            android:id="@+id/btn3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="1"
@@ -158,6 +165,7 @@
 
         <!--1-->
         <androidx.cardview.widget.CardView
+            android:id="@+id/btn4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="1"
