@@ -1,18 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bghome"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/setting"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="7dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:srcCompat="@drawable/baseline_settings_24" />
+
     <TextView
+        android:id="@+id/textMari"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="200dp"
+        android:text="Mari"
+        android:textColor="@color/white"
+        android:shadowColor="@color/bluetvborder"
+        android:shadowRadius="25"
+        android:textSize="45dp"
+        android:textStyle="bold" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textBelajar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="96dp"
+        android:shadowColor="@color/bluetvborder"
+        android:shadowRadius="25"
+        android:text="Belajar"
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textBelajar"
+        android:rowCount="3"
+        android:columnCount="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/pengenalan"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_width="149dp"
+                android:layout_height="149dp"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pengenalan"
+                app:shapeAppearanceOverlay="@style/circular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="28dp"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/membaca"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_width="149dp"
+                android:layout_height="149dp"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/membaca"
+                app:shapeAppearanceOverlay="@style/circular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="11dp"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/menulis"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_width="149dp"
+                android:layout_height="149dp"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/menulis"
+                app:shapeAppearanceOverlay="@style/circular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="11dp"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/berhitung"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_width="149dp"
+                android:layout_height="149dp"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/berhitung"
+                app:shapeAppearanceOverlay="@style/circular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="68dp"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/mewarnai"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_width="149dp"
+                android:layout_height="149dp"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mewarnai"
+                app:shapeAppearanceOverlay="@style/circular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="68dp"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/bernyanyi"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_width="149dp"
+                android:layout_height="149dp"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bernyanyi"
+                app:shapeAppearanceOverlay="@style/circular" />
+        </LinearLayout>
+
+    </GridLayout>
+</RelativeLayout>
+
+
