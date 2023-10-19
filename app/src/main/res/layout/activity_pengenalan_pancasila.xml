@@ -13,7 +13,6 @@
         android:src="@drawable/back"
         android:layout_marginTop="58dp"
         android:layout_marginStart="16dp" />
-
     <ImageView
         android:id="@+id/home"
         android:layout_width="wrap_content"
@@ -21,14 +20,12 @@
         android:src="@drawable/home"
         android:layout_marginTop="58dp"
         android:layout_marginStart="348dp" />
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/prev"
         android:layout_marginTop="320dp"
         android:layout_marginStart="16dp" />
-
     <ImageView
         android:id="@+id/next"
         android:layout_width="wrap_content"

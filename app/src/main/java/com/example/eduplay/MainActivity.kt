@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val pengenalan: ImageView = findViewById(R.id.pengenalan)
         pengenalan.setOnClickListener(this)
         val menulis: ImageView = findViewById(R.id.menulis)
+        menulis.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -33,6 +34,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 }
                 R.id.pengenalan -> {
                     val intent = Intent(this@MainActivity, Pengenalan::class.java)
+                    startActivity(intent)
+                }
+                R.id.menulis -> {
+                    val intent = Intent(this@MainActivity, Menulis_A::class.java)
                     startActivity(intent)
                 }
             }

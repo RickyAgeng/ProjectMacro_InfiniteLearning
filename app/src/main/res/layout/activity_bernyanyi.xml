@@ -28,7 +28,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="138dp"
         android:shadowColor="@color/bluetvborder"
-        android:shadowRadius=""
+        android:shadowRadius="25"
         android:text="Bernyanyi"
         android:textColor="@color/white"
         android:textSize="45dp"
