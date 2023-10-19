@@ -9,6 +9,7 @@ import android.widget.ImageView
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+<<<<<<< HEAD
         setContentView(R.layout.activity_main)
 
         val membaca: ImageView = findViewById(R.id.membaca)
@@ -30,5 +31,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 }
             }
         }
+=======
+        setContentView(R.layout.activity_bernyanyi)
+>>>>>>> origin/main
     }
 }

@@ -13,6 +13,7 @@
         android:theme="@style/Theme.EDUPLAY"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".Membaca4"
             android:exported="false" />
         <activity
@@ -34,6 +35,25 @@
             android:name=".Splash"
             android:exported="true"
             android:theme="@style/NoActionBar" >
+=======
+            android:name=".Menulis_B"
+            android:exported="false" />
+        <activity
+            android:name=".Menulis_A"
+            android:exported="false" />
+        <activity
+            android:name=".Pengenalan"
+            android:exported="false" />
+        <activity
+            android:name=".Pengenalan_Pancasila"
+            android:exported="false" />
+        <activity
+            android:name=".Bernyanyi"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+>>>>>>> origin/main
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
