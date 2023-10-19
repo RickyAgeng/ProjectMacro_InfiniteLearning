@@ -87,15 +87,16 @@
 
     <TextView
         android:id="@+id/text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pengenalan"
-        android:background="#ffff"
-        android:textSize="35sp"
-
+        android:layout_width="300dp"
+        android:layout_height="73dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="538dp"
-        />
+        android:background="@color/sila1"
+        android:text="@string/sila1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
 
 

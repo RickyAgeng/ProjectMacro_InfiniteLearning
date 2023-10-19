@@ -10,20 +10,23 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/back"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="58dp"
-        android:layout_marginStart="16dp" />
+        android:src="@drawable/back" />
 
     <TextView
         android:id="@+id/Judul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pengenalan"
-        android:textSize="35sp"
-        android:textStyle="bold"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="138dp"
-        />
+        android:textColor="@color/white"
+        android:shadowColor="@color/bluetvborder"
+        android:shadowRadius="25"
+        android:text="Pengenalan"
+        android:textSize="45dp"
+        android:textStyle="bold" />
 
     <GridLayout
         android:layout_width="match_parent"
