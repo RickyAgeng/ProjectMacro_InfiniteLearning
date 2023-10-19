@@ -65,7 +65,7 @@
             android:name=".Menulis_A"
             android:exported="false" />
         <activity
-            android:name=".Pengenalan_Pancasila"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Bernyanyi"
@@ -80,7 +80,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Pengenalan_Pancasila"
             android:exported="false" />
     </application>
 

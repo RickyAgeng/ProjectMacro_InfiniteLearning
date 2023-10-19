@@ -20,12 +20,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/home"
         android:layout_marginTop="58dp"
-<<<<<<< HEAD
         android:layout_marginStart="328dp" />
 
-=======
-        android:layout_marginStart="348dp" />
->>>>>>> 67da4e151fd15577a496c8d42849a026ec06de80
     <ImageView
         android:id="@+id/iv_prev"
         android:layout_width="wrap_content"
@@ -90,7 +86,6 @@
 
     </GridLayout>
 
-<<<<<<< HEAD
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -142,20 +137,20 @@
 <!--        android:textColor="#fff"-->
 <!--        android:layout_marginTop="538dp"-->
 <!--        />-->
-=======
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="300dp"
-        android:layout_height="73dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="538dp"
-        android:background="@color/sila1"
-        android:text="@string/sila1"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="25dp"
-        android:textStyle="bold" />
->>>>>>> 20bfd696fa7994ef41605dd9ed9d2662ddc1d049
+
+<!--    <TextView-->
+<!--        android:id="@+id/text"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="73dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="538dp"-->
+<!--        android:background="@color/sila1"-->
+<!--        android:text="@string/sila1"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="25dp"-->
+<!--        android:textStyle="bold" />-->
+
 
 
 

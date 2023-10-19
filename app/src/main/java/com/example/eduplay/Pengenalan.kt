@@ -14,32 +14,38 @@ class Pengenalan : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pengenalan)
 
-        val btnBtn1 : ImageView = findViewById(R.id.btn1)
-        btnBtn1.setOnClickListener(this)
-        val btnBtn2 : ImageView = findViewById(R.id.btn2)
-        btnBtn2.setOnClickListener(this)
-        val btnBtn3 : ImageView = findViewById(R.id.btn3)
-        btnBtn3.setOnClickListener(this)
-        val btnBtn4 : ImageView = findViewById(R.id.btn4)
-        btnBtn4.setOnClickListener(this)
+        val Btn0 : ImageView = findViewById(R.id.btnback)
+        Btn0.setOnClickListener(this)
+        val Btn1 : CardView = findViewById(R.id.btn1)
+        Btn1.setOnClickListener(this)
+        val Btn2 : CardView = findViewById(R.id.btn2)
+        Btn2.setOnClickListener(this)
+        val Btn3 : CardView = findViewById(R.id.btn3)
+        Btn3.setOnClickListener(this)
+        val Btn4 : CardView = findViewById(R.id.btn4)
+        Btn4.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
         if (v != null) {
-            when(v?.id) {
+            when(v.id) {
+                R.id.btnback -> {
+                    val intent = Intent(this@Pengenalan, MainActivity::class.java)
+                    startActivity(intent)
+                }
                 R.id.btn1 -> {
                     val intent = Intent(this@Pengenalan, Pengenalan_Buah1::class.java)
                     startActivity(intent)
                 }
-                R.id.btn1 -> {
+                R.id.btn2 -> {
                     val intent = Intent(this@Pengenalan, Pengenalan_Hewan1::class.java)
                     startActivity(intent)
                 }
-                R.id.btn1 -> {
+                R.id.btn3 -> {
                     val intent = Intent(this@Pengenalan, Pengenalan_Warna1::class.java)
                     startActivity(intent)
                 }
-                R.id.btn1 -> {
+                R.id.btn4 -> {
                     val intent = Intent(this@Pengenalan, Pengenalan_Pancasila::class.java)
                     startActivity(intent)
                 }

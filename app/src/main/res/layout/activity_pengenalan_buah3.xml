@@ -8,7 +8,7 @@
     android:background="@drawable/frame2" >
 
     <ImageView
-        android:id="@+id/iv_back"
+        android:id="@+id/back_pis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/back"
@@ -16,7 +16,7 @@
         android:layout_marginStart="16dp" />
 
     <ImageView
-        android:id="@+id/home"
+        android:id="@+id/home_pis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/home"
@@ -24,7 +24,7 @@
         android:layout_marginStart="328dp" />
 
     <ImageView
-        android:id="@+id/iv_prev"
+        android:id="@+id/prev_pis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/prev"
@@ -32,7 +32,7 @@
         android:layout_marginStart="16dp" />
 
     <ImageView
-        android:id="@+id/iv_next"
+        android:id="@+id/next_pis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/next"
@@ -43,7 +43,7 @@
         android:id="@+id/grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/home"
+        android:layout_below="@+id/home_pis"
         android:layout_marginStart="70dp"
         android:layout_marginEnd="70dp"
         android:layout_marginTop="140dp"
@@ -88,34 +88,25 @@
 
     </GridLayout>
 
-    <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="300dp"
+        android:layout_height="78dp"
         android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginTop="540dp"
-        android:layout_marginBottom="40dp">
+        android:layout_marginTop="530dp"
+        app:cardCornerRadius="34dp"
+        app:cardBackgroundColor="#F5CA0E">
 
-        <androidx.cardview.widget.CardView
+        <TextView
             android:layout_width="300dp"
-            android:layout_height="78dp"
-            android:layout_marginTop="20dp"
-            app:cardCornerRadius="34dp"
-            app:cardBackgroundColor="#F5CA0E">
+            android:layout_height="wrap_content"
+            android:text="        PISANG"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="#fff">
 
-            <TextView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:text="        PISANG"
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:textStyle="bold"
-                android:textSize="40sp"
-                android:textColor="#fff">
-
-            </TextView>
-        </androidx.cardview.widget.CardView>
-
-
-    </GridLayout>
+        </TextView>
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
